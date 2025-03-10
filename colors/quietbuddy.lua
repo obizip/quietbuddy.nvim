@@ -164,8 +164,8 @@ Group.new("TreesitterContext")
 Group.new("TreesitterContextBottom", nil, nil, s.underline)
 Group.new("TreesitterContextLineNumberBottom", nil, nil, s.underline)
 
+Group.new("@markup.heading", c.accent2, nil, s.bold)
 Group.new("@markup.list.markdown", c.accent1, nil, s.bold)
-Group.new("@markup.heading", c.accent1, nil, s.bold)
 
 -- LSP
 Group.new("DiagnosticHint", c.hint, nil, s.bold)
