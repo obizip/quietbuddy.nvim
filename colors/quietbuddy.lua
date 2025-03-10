@@ -54,7 +54,7 @@ Group.new("CursorLine", nil, cl(0.1))
 Group.link("CursorColumn", g.CursorLine)
 
 Group.new("Delimiter", cl(0.6))
-Group.new("NonText", cl(0.2))
+Group.new("NonText", cl(0.25))
 
 link_all(g.Constant, {
 	"Boolean",
