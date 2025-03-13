@@ -64,6 +64,10 @@ link_all(g.Constant, {
 	"String",
 })
 
+link_all(g.Comment, {
+	"Tag",
+})
+
 link_all(g.Delimiter, {
 	"Keyword",
 })
@@ -143,7 +147,6 @@ link_all(g.Normal, {
 	"TabLine",
 	"TabLineFill",
 	"TabLineSel",
-	"Tag",
 	"Terminal",
 	"Title",
 	"Todo",
