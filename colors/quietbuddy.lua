@@ -56,6 +56,8 @@ Group.link("CursorColumn", g.CursorLine)
 Group.new("Delimiter", cl(0.6))
 Group.new("NonText", cl(0.25))
 
+Group.new("NoEffects", nil, nil, nil)
+
 link_all(g.Constant, {
 	"Boolean",
 	"Character",
@@ -175,7 +177,7 @@ Group.new("DiagnosticHint", c.hint, nil, s.bold)
 Group.new("DiagnosticInfo", c.info, nil, s.bold)
 Group.new("DiagnosticWarn", c.warn, nil, s.bold)
 Group.new("DiagnosticError", c.error, nil, s.bold)
--- Group.link("DiagnosticUnnecessary", g.Normal)
+Group.link("DiagnosticUnnecessary", g.NoEffects)
 
 -- Telescope
 Group.new("TelescopeMatching", c.match)
