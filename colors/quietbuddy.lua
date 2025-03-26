@@ -175,7 +175,7 @@ Group.new("DiagnosticHint", c.hint, nil, s.bold)
 Group.new("DiagnosticInfo", c.info, nil, s.bold)
 Group.new("DiagnosticWarn", c.warn, nil, s.bold)
 Group.new("DiagnosticError", c.error, nil, s.bold)
-Group.new("DiagnosticUnnecessary", nil, nil, nil)
+Group.link("DiagnosticUnnecessary", "Normal")
 
 -- Telescope
 Group.new("TelescopeMatching", c.match)
