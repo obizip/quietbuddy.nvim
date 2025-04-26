@@ -46,7 +46,7 @@ Group.new("CurSearch", c.match, nil, s.reverse)
 Group.new("Visual", nil, cl(0.3))
 Group.new("LineNr", cl(0.4))
 Group.new("CursorLineNr", cl(0.8))
-Group.new("Pmenu", c.none, cl(0.45))
+Group.new("Pmenu", c.none, cl(0.3))
 Group.new("ColorColumn", c.none, cl(0.1))
 Group.new("Constant", c.accent1)
 
