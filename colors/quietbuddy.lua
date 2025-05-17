@@ -77,6 +77,9 @@ link_all(g.Delimiter, {
   "Conditional",
   "Label",
   "PreProc",
+  "Structure",
+  "Define",
+  "Include",
 })
 
 link_all(g.NonText, {
@@ -100,13 +103,11 @@ link_all(g.CurSearch, {
 
 link_all(g.Normal, {
   "StorageClass",
-  "Structure",
   "Statement",
   "Conceal",
   "Cursor",
   "CursorIM",
   "Debug",
-  "Define",
   "DiffAdd",
   "DiffChange",
   "DiffDelete",
@@ -120,7 +121,6 @@ link_all(g.Normal, {
   "Function",
   "Identifier",
   "Ignore",
-  "Include",
   "Macro",
   "MatchParen",
   "MessageWindow",
