@@ -69,10 +69,14 @@ link_all(g.Constant, {
 
 link_all(g.Comment, {
   "Tag",
+  "Type",
 })
 
 link_all(g.Delimiter, {
   "Keyword",
+  "Conditional",
+  "Label",
+  "PreProc",
 })
 
 link_all(g.NonText, {
@@ -95,12 +99,10 @@ link_all(g.CurSearch, {
 })
 
 link_all(g.Normal, {
-  "Type",
   "StorageClass",
   "Structure",
   "Statement",
   "Conceal",
-  "Conditional",
   "Cursor",
   "CursorIM",
   "Debug",
@@ -119,7 +121,6 @@ link_all(g.Normal, {
   "Identifier",
   "Ignore",
   "Include",
-  "Label",
   "Macro",
   "MatchParen",
   "MessageWindow",
@@ -132,7 +133,6 @@ link_all(g.Normal, {
   "PmenuThumb",
   "PopupNotification",
   "PreCondit",
-  "PreProc",
   "Question",
   "QuickFixLine",
   "Repeat",
