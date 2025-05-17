@@ -65,11 +65,11 @@ link_all(g.Constant, {
   "Float",
   "Number",
   "String",
+  "Type",
 })
 
 link_all(g.Comment, {
   "Tag",
-  "Type",
 })
 
 link_all(g.Delimiter, {
