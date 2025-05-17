@@ -65,7 +65,6 @@ link_all(g.Constant, {
   "Float",
   "Number",
   "String",
-  "Type",
 })
 
 link_all(g.Comment, {
@@ -77,7 +76,6 @@ link_all(g.Delimiter, {
   "Conditional",
   "Label",
   "PreProc",
-  "Structure",
   "Define",
   "Include",
 })
@@ -102,6 +100,8 @@ link_all(g.CurSearch, {
 })
 
 link_all(g.Normal, {
+  "Type",
+  "Structure",
   "StorageClass",
   "Statement",
   "Conceal",
