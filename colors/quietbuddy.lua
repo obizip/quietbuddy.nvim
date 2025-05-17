@@ -65,6 +65,7 @@ link_all(g.Constant, {
   "Float",
   "Number",
   "String",
+  "Special",
 })
 
 link_all(g.Comment, {
@@ -136,7 +137,6 @@ link_all(g.Normal, {
   "Question",
   "QuickFixLine",
   "Repeat",
-  "Special",
   "SpecialChar",
   "SpellBad",
   "SpellCap",
