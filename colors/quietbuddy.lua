@@ -31,6 +31,7 @@ end
 
 Color.new("accent1", "#8D8CD8")
 Color.new("accent2", "#33994E")
+Color.new("accent3", "#89C9D6")
 Color.new("match", "#FFAF00")
 
 Color.new("hint", "#1971FF")
@@ -53,6 +54,7 @@ Group.new("Constant", c.accent1)
 Group.new("CursorLine", nil, cl(0.1))
 
 Group.new("Delimiter", cl(0.6))
+Group.new("Operator", c.accent3)
 Group.new("NonText", cl(0.25))
 
 Group.new("NoEffects", nil, nil, nil)
@@ -79,7 +81,6 @@ link_all(g.Delimiter, {
   "PreProc",
   "Define",
   "Include",
-  "Operator",
 })
 
 link_all(g.NonText, {
