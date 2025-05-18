@@ -79,6 +79,7 @@ link_all(g.Delimiter, {
   "PreProc",
   "Define",
   "Include",
+  "Operator",
 })
 
 link_all(g.NonText, {
@@ -127,7 +128,6 @@ link_all(g.Normal, {
   "MessageWindow",
   "ModeMsg",
   "MoreMsg",
-  "Operator",
   "PmenuExtra",
   "PmenuKind",
   "PmenuSbar",
