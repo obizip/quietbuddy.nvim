@@ -31,7 +31,7 @@ end
 
 Color.new("accent1", "#8D8CD8")
 Color.new("accent2", "#33994E")
-Color.new("accent3", "#8996D6")
+Color.new("accent3", "#89AFD6")
 Color.new("match", "#FFAF00")
 
 Color.new("hint", "#1971FF")
